@@ -1,4 +1,7 @@
+package schedule_manager;
+
 import java.util.Scanner;
+
 
 public class Main {
 
