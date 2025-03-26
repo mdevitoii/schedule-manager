@@ -1,3 +1,5 @@
+package schedule_manager;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 
@@ -6,10 +8,8 @@ public class Employee {
     private final boolean gender; // False = Male, True = Female
     private final HashMap<String,Integer> positions; // create a hashmap for positions
     private final boolean minor; 
-    private final int id;
 
-    public Employee(int id, String name, boolean gender, boolean minor) {
-        this.id = id;
+    public Employee(String name, boolean gender, boolean minor) {
         this.name = name;
         this.gender = gender;
         this.minor = minor;
@@ -42,10 +42,6 @@ public class Employee {
 
     public String getName() {
         return name;
-    }
-
-    public int getID() {
-        return id;
     }
 
 }
